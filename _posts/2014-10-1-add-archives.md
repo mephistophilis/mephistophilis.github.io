@@ -4,7 +4,9 @@ title: 添加archive
 ---
 创建archive.html  
 
+
 ```
+{% raw %}
 ---
 layout: default
 title: Archive
@@ -27,5 +29,7 @@ title: Archive
     <li>{{ post.date | date:"%b %d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-```
+{% endraw %}
+```  
+
 
