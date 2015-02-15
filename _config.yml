@@ -1,5 +1,5 @@
-gems:
-  - jekyll-archives
+#gems:
+#  - jekyll-archives
 
 # Dependencies
 markdown:            redcarpet
@@ -30,12 +30,12 @@ author:
 # Custom vars
 version:             1.0.0
 
-jekyll-archives:
-  enabled: all 
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+#jekyll-archives:
+#  enabled: all 
+#  layout: 'archive'
+#  permalinks:
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
