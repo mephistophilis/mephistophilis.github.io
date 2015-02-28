@@ -1,5 +1,12 @@
 ---
 layout: post
-title: OS X保存文件到特定目录
+title: Android获取root权限
 ---
-一直都不知道怎么保存，每次都是保存完命令行里再考过去。今天总算发现了， 在Save dialog里的Save as项的后面有个向下的按钮，点了就可以选择特定目录了。
+Gradle里加入libsuperuser库就可以方便的使用root权限了。
+
+ 
+`
+dependencies {
+    compile 'eu.chainfire:libsuperuser:1.0.0.201501121001'
+}
+`
